@@ -19,7 +19,7 @@ const app = async (yargsObj) => {
     } else {
         console.log("incorrect Command")
     }
-    await client.close;
+    await client.close();
 };
 
 app(yargs.argv);
